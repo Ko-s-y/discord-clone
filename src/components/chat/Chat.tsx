@@ -1,13 +1,14 @@
 import React from 'react'
 import "./Chat.scss"
 import ChatHeader from './ChatHeader'
+import ChatInput from './ChatInput'
 
 function Chat() {
   return (
     <div className='chat'>
       <ChatHeader />
       {/* chatMessage */}
-      {/* chatInput */}
+      <ChatInput />
     </div>
   )
 }
