@@ -3,6 +3,7 @@ import "./Sidebar.scss"
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import AddIcon from '@mui/icons-material/Add';
 import SidebarChannel from './SidebarChannel';
+import SidebarFooter from './SidebarFooter';
 
 const Sidebar = () => {
   return (
@@ -38,6 +39,8 @@ const Sidebar = () => {
             <SidebarChannel />
             <SidebarChannel />
           </div>
+
+          <SidebarFooter />
         </div>
       </div>
     </div>
