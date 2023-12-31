@@ -5,7 +5,7 @@ import CardGiftcardIcon from '@mui/icons-material/CardGiftcard';
 import GifIcon from '@mui/icons-material/Gif';
 import EmojiEmotionsIcon from '@mui/icons-material/EmojiEmotions';
 
-export default function ChatInput() {
+function ChatInput() {
   return (
     <div  className='chatInput'>
       <AddCircleOutlineIcon />
@@ -24,3 +24,5 @@ export default function ChatInput() {
     </div>
   )
 }
+
+export default ChatInput
