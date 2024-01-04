@@ -1,17 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.scss';
+import { useSelector } from 'react-redux';
 import Sidebar from './components/sidebar/Sidebar';
 import Chat from './components/chat/Chat';
 
 function App() {
+  // const user = useSelector((state) => state.user.user);
+  const user = null;
+
   return (
     <div className="App">
-      {/* {sidebar} */}
-      <Sidebar />
+      { user ? (
+        <>
+          {/* {sidebar} */}
+          <Sidebar />
 
-      {/* chat */}
-      <Chat />
+          {/* chat */}
+          <Chat />
+        </>
+      ) : (
+        <>
+          Login
+        </>
+      )}
     </div>
   );
 }
