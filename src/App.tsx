@@ -3,6 +3,7 @@ import './App.scss';
 import { useSelector } from 'react-redux';
 import Sidebar from './components/sidebar/Sidebar';
 import Chat from './components/chat/Chat';
+import Login from './components/login/Login';
 
 function App() {
   // const user = useSelector((state) => state.user.user);
@@ -20,7 +21,7 @@ function App() {
         </>
       ) : (
         <>
-          Login
+          <Login />
         </>
       )}
     </div>
