@@ -1,9 +1,16 @@
 import React from 'react'
 import "./Login.scss"
+import { Button } from '@mui/material';
 
 function Login() {
   return (
-    <div>Login</div>
+    <div className='login'>
+      <div className='loginLogo'>
+        <img src='./discordLogo.png' alt='' />
+      </div>
+
+      <Button>ログイン</Button>
+    </div>
   )
 }
 
