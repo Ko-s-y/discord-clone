@@ -6,7 +6,7 @@ function Login() {
   return (
     <div className='login'>
       <div className='loginLogo'>
-        <img src='./discordLogo.png' alt='' />
+        <img src='./discordIcon.png' alt='' />
       </div>
 
       <Button>ログイン</Button>
